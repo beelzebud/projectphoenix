@@ -1,0 +1,17 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureColor"	"materials/default/default_color.tga"
+	"TextureNormal"	"materials/default/default_normal.tga"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/default/default_color_tga_47b1af3d.vtex"
+		"g_tNormal"	"materials/default/default_normal_tga_9204755b.vtex"
+	}
+}

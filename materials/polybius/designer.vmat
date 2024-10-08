@@ -1,0 +1,60 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	//---- PBR ----
+	F_METALNESS_TEXTURE 1
+	F_SELF_ILLUM 1
+	F_SPECULAR 1
+
+	//---- Secondary UV ----
+	F_SECONDARY_UV 1
+
+	//---- Ambient Occlusion ----
+	g_bUseSecondaryUvForAmbientOcclusion "1"
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/polybius/designer_ao.png"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/polybius/designer.png"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Metalness ----
+	TextureMetalness "materials/polybius_tunnel/binary1_metal.png"
+
+	//---- Normal ----
+	TextureNormal "materials/polybius/designer_normal.png"
+
+	//---- Roughness ----
+	TextureRoughness "materials/workshop_examples/hotspot/example_metal1_hs_rough.png"
+
+	//---- Self Illum ----
+	g_bUseSecondaryUvForSelfIllum "1"
+	g_flSelfIllumAlbedoFactor "0.986"
+	g_flSelfIllumBrightness "2.784"
+	g_flSelfIllumScale "1.000"
+	g_vSelfIllumScrollSpeed "[0.060 0.000]"
+	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureSelfIllumMask "materials/polybius_tunnel/binary1.png"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}

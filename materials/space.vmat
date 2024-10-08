@@ -1,0 +1,21 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_projected_decals.vfx"
+
+	//---- Decal ----
+	F_BLEND_MODE 2 // Emissive
+	F_TRIPLANAR_MAPPING 1
+
+	//---- Use Sheet Textures ----
+	F_USE_SHEETS 1
+
+	//---- Color ----
+	TextureColor "materials/speaker_cabinet_face_color.png"
+
+	//---- Emissive ----
+	g_flAdditiveAmount "1.000"
+	g_flEmissiveBrightness "2.624"
+	g_vEmissiveTint "[1.000000 1.000000 1.000000 0.000000]"
+}

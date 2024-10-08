@@ -1,0 +1,27 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"F_SELF_ILLUM"	"1"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_flSelfIllumScale"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vSelfIllumScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vSelfIllumTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"TextureSelfIllumMask"	"[0.760000 0.760000 0.760000 0.000000]"
+	"TextureColor"	"materials/altbeast_cabinet/altbeast_title.png"
+	"TextureAmbientOcclusion"	"materials/altbeast_cabinet/altbeast_title_ao.png"
+	"TextureNormal"	"materials/altbeast_cabinet/altbeast_title_normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/altbeast_cabinet/altbeast_title_png_f878780f.vtex"
+		"g_tAmbientOcclusion"	"materials/altbeast_cabinet/altbeast_title_ao_png_9dcf65eb.vtex"
+		"g_tNormal"	"materials/altbeast_cabinet/altbeast_title_normal_png_20105b9d.vtex"
+		"g_tSelfIllumMask"	"materials/altbeast_cabinet/altbeast_title_vmat_g_tselfillummask_c5bcaff9.vtex"
+	}
+}

@@ -1,0 +1,171 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\bong.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Glass.Small"
+							allowstatic = true
+							bakelighting = true
+							damage_table = "glass"
+							"dmg.bullets" = 75.0
+							"dmg.club" = 75.0
+							"dmg.explosive" = 75.0
+							"dmg.fire" = 75.0
+							health = 100.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/impact_glass.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/breakable_effects/bottles_liquid_splash_break_particles.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_flip_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 84.0
+							burst_randomize = 162.5
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_twist_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 73.0
+							burst_randomize = 131.1
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_uniform_burst"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 61.4
+							burst_randomize = 84.6
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/breakable_effects/bottles_liquid_beer_pool_projected_break_particles.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						name = "_copy"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/impact_glass.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "bong"
+						parent_bone = ""
+						surface_prop = "prop.glass_jar"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/bong.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 27
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "breakable_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

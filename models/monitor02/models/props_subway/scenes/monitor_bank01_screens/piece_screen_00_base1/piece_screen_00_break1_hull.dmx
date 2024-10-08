@@ -1,0 +1,111 @@
+<!-- dmx encoding keyvalues2 4 format model 22 -->
+"DmElement"
+{
+    "id" "elementid" "1556acb2-9208-4e8f-83e0-f4a9c04494ae"
+    "name" "string" "root"
+    "skeleton" "element" "6a7498d8-4453-466b-ae11-ef17dfc13c89"
+    "model" "element" "6a7498d8-4453-466b-ae11-ef17dfc13c89"
+    "exportTags" "DmeExportTags"
+    {
+        "id" "elementid" "cb95074e-6f81-4111-ad8b-46767dec1976"
+        "name" "string" "exportTags"
+        "source" "string" "Generated with Source 2 Viewer 10.1.0.0 - https://valveresourceformat.github.io"
+    }
+}
+
+"DmeModel"
+{
+    "id" "elementid" "6a7498d8-4453-466b-ae11-ef17dfc13c89"
+    "transform" "DmeTransform"
+    {
+        "id" "elementid" "40828fbc-f743-4729-b4ff-e76c76c9b9ad"
+        "position" "vector3" "0 0 0"
+        "orientation" "quaternion" "0 0 0 1"
+    }
+    "shape" "element" ""
+    "visible" "bool" "1"
+    "children" "element_array"
+    [
+        "element" "b74d91e1-2221-467e-9c6f-235237552ef1"
+    ]
+    "jointList" "element_array"
+    [
+        "element" "b74d91e1-2221-467e-9c6f-235237552ef1"
+    ]
+    "baseStates" "element_array"
+    [
+        "DmeTransformsList"
+        {
+            "id" "elementid" "dcc3e076-7ccf-403f-8f3d-051a92d49b28"
+            "transforms" "element_array"
+            [
+                "DmeTransform"
+                {
+                    "id" "elementid" "993ebb45-a519-45ab-a620-5b217f5c5a85"
+                    "position" "vector3" "0 0 0"
+                    "orientation" "quaternion" "0 0 0 1"
+                }
+            ]
+        }
+    ]
+    "axisSystem" "DmeAxisSystem"
+    {
+        "id" "elementid" "a1958772-91bc-44ff-8783-f4e9365c8abd"
+        "upAxis" "int" "3"
+        "forwardParity" "int" "1"
+        "coordSys" "int" "0"
+    }
+}
+
+"DmeDag"
+{
+    "id" "elementid" "b74d91e1-2221-467e-9c6f-235237552ef1"
+    "transform" "DmeTransform"
+    {
+        "id" "elementid" "75cc60fe-5b1f-4092-99ec-047bb386b79b"
+        "position" "vector3" "0 0 0"
+        "orientation" "quaternion" "0 0 0 1"
+    }
+    "shape" "DmeMesh"
+    {
+        "id" "elementid" "66b52e47-1d5c-4b80-bb68-364dcaefb821"
+        "visible" "bool" "1"
+        "bindState" "element" ""
+        "currentState" "element" "4733340a-36f1-48b1-9187-a3fcfccecefa"
+        "baseStates" "element_array"
+        [
+            "element" "4733340a-36f1-48b1-9187-a3fcfccecefa"
+        ]
+        "deltaStates" "element_array" [ ]
+        "faceSets" "element_array"
+        [
+            "DmeFaceSet"
+            {
+                "id" "elementid" "00338215-3e4f-46f3-9c87-b3cc21602dec"
+                "name" "string" "hull faces"
+                "faces" "int_array" [ "4", "3", "2", "0", "-1", "5", "0", "2", "1", "-1", "6", "5", "1", "7", "-1", "6", "7", "3", "4", "-1", "6", "4", "0", "5", "-1", "3", "7", "1", "2", "-1" ]
+                "material" "DmeMaterial"
+                {
+                    "id" "elementid" "fe8fa612-2966-4da9-8226-866f3e4084d3"
+                    "name" "string" "material"
+                    "mtlName" "string" "$prop.glass_tv_tube"
+                }
+            }
+        ]
+        "deltaStateWeights" "vector2_array" [ ]
+        "deltaStateWeightsLagged" "vector2_array" [ ]
+    }
+    "visible" "bool" "1"
+    "children" "element_array" [ ]
+}
+
+"DmeVertexData"
+{
+    "id" "elementid" "4733340a-36f1-48b1-9187-a3fcfccecefa"
+    "name" "string" "bind"
+    "vertexFormat" "string_array" [ "position$0" ]
+    "jointCount" "int" "0"
+    "flipVCoordinates" "bool" "0"
+    "position$0" "vector3_array" [ "7.9031553 13.0577965 8.15863", "1.3616161 12.976788 -12.710175", "9.492981 13.001026 7.519668", "8.707244 -12.906857 7.8665385", "7.11742 -12.850086 8.505493", "-0.2282095 13.033558 -12.071213", "-1.0139451 -12.874325 -11.72435", "0.5758791 -12.931095 -12.363308" ]
+    "position$0Indices" "int_array" [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23" ]
+}

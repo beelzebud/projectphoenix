@@ -1,0 +1,53 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "0.000"
+	g_flGreenShift "0.000"
+	g_flJitterSpeed "0.162"
+	g_flRedShift "0.000"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "materials/workshop_examples/monitor/contrast_control.tga"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.318"
+	g_flTexCoordOffsetU "0.123"
+	g_flTexCoordOffsetV "0.188"
+	g_flTintScale "0.805"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vScanlineTextureOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	ScanlineDistortion "materials/video/scanline_04.png"
+	TextureColor "materials/polybius/face.png"
+	TextureFilmGrain "materials/dev/film_grain_noise.tga"
+	TextureScanlines "materials/video/scanline_04.png"
+	TextureVignette "materials/workshop_examples/monitor/vignette_01.png"
+
+	//---- Specular ----
+	g_flReflectionStrength "0.325"
+	g_fSpecularRoughness "0.019"
+	SpecularDirt "materials/polybius/designer_ao.png"
+	SpecularDistortion "materials/polybius/designer_ao.png"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.016"
+	VSyncControl "materials/workshop_examples/monitor/vsync_control.tga"
+
+	DynamicParams
+	{
+		g_flBlueShift "1 + 1.5 * (1 - pow(abs(sin((time / 5) * 3.14159)), 0.5))"
+		g_flGreenShift "1 + 4.5 * (1 - pow(abs(sin((time / 5) * 3.14159)), 0.5))"
+		g_flJitterSpeed "1 + 4.5 * (1 - pow(abs(sin((time / 5) * 3.14159)), 0.5))"
+		g_flRedShift "1 + 1.5 * (1 - pow(abs(sin((time / 5) * 3.14159)), 0.5))"
+		TextureContrastControl "lerp(1, 2, sin(time * speed)) * lerp(2, 0, smoothstep(0, 1, time * fade_speed));\n"
+		g_flFilmGrainStrength "1 + 4.5 * (1 - pow(abs(sin((time / 5) * 3.14159)), 0.5))"
+		g_flTintScale "1 + 1.5 * (1 - pow(abs(sin((time / 5) * 3.14159)), 0.5))"
+		TextureFilmGrain "lerp(1, 2, sin(time * speed)) * lerp(2, 0, smoothstep(0, 1, time * fade_speed));\n"
+		TextureVignette "lerp(1, 2, sin(time * speed)) * lerp(2, 0, smoothstep(0, 1, time * fade_speed));\n"
+	}
+}

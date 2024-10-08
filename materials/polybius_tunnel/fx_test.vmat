@@ -1,0 +1,45 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "1.230"
+	g_flGreenShift "0.920"
+	g_flJitterSpeed "0.200"
+	g_flRedShift "1.000"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "materials/workshop_examples/monitor/contrast_control.tga"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.920"
+	g_flTexCoordOffsetU "-0.194"
+	g_flTexCoordOffsetV "-0.206"
+	g_flTintScale "0.846"
+	g_vColorTint "[0.196078 0.803922 0.196078 1.000000]"
+	g_vScanlineTextureOffset "[0.000 0.543]"
+	g_vTexCoordScale "[1.000 1.000]"
+	ScanlineDistortion "materials/default/default_color.tga"
+	TextureColor "materials/polybius/face.png"
+	TextureFilmGrain "materials/dev/film_grain_noise.tga"
+	TextureScanlines "materials/workshop_examples/monitor/scanline_03.png"
+	TextureVignette "materials/workshop_examples/monitor/vignette_01.png"
+
+	//---- Specular ----
+	g_flReflectionStrength "35.143"
+	g_fSpecularRoughness "0.091"
+	SpecularDirt "materials/polybius/face_normal.png"
+	SpecularDistortion "materials/polybius/face_normal2.png"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.026"
+	VSyncControl "materials/workshop_examples/monitor/vsync_control.tga"
+
+	DynamicParams
+	{
+		TextureFilmGrain "5.5 + 4.5 * sin(time * 3.14159)"
+	}
+}

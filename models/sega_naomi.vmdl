@@ -1,0 +1,344 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\sega_naomi.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BreakPieceList"
+				children = 
+				[
+					{
+						_class = "BreakPieceExternal"
+						name = "1"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/naomi_debris_04.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "2"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/naomi_debris_03.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "3"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/naomi_debris_02.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "4"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/naomi_debris_01.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "5"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/naomi_debris_05.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "6"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/naomi_debris_01.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "7"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/naomi_debris_06.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "8"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/naomi_debris_07.vmdl"
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Plastic.Large"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = 1.0
+							"dmg.club" = 1.0
+							"dmg.explosive" = 1.0
+							"dmg.fire" = 1.0
+							health = 25.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/destrction_sequences/a4_ion_blastc_sparks_multi_pull.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_flip_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 49.0
+							burst_randomize = 83.3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_twist_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 117.0
+							burst_randomize = 137.9
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_uniform_burst"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 77.8
+							burst_randomize = 161.2
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/destrction_sequences/a4_set_c_sparks_multi_pull.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/impact_electronic_smoke.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "sega_naomi"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/sega_naomi.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "hotd4"
+						remaps = 
+						[
+							{
+								from = "materials/naomi_cabinet/beachsp_naomi_marquee.vmat"
+								to = "materials/naomi_cabinet/hotd2_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "ggx"
+						remaps = 
+						[
+							{
+								from = "materials/naomi_cabinet/beachsp_naomi_marquee.vmat"
+								to = "materials/naomi_cabinet/ggx_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "capcomvssnk2"
+						remaps = 
+						[
+							{
+								from = "materials/naomi_cabinet/beachsp_naomi_marquee.vmat"
+								to = "materials/naomi_cabinet/capcomvssnk2_marquee.vmat"
+							},
+						]
+					},
+				]
+			},
+		]
+		model_archetype = "breakable_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

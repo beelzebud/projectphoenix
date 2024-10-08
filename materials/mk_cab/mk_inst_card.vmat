@@ -1,0 +1,21 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureColor"	"materials/mk_cab/mk_inst_card_color.png"
+	"TextureAmbientOcclusion"	"materials/mk_cab/mk_inst_card_ao.png"
+	"TextureNormal"	"materials/mk_cab/mk_inst_card_normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/mk_cab/mk_inst_card_color_png_ac0df7fa.vtex"
+		"g_tAmbientOcclusion"	"materials/mk_cab/mk_inst_card_ao_png_5808e0e6.vtex"
+		"g_tNormal"	"materials/mk_cab/mk_inst_card_normal_png_705f2e2e.vtex"
+	}
+}

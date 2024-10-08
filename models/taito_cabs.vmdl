@@ -1,0 +1,415 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\taito_cabs.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "narc"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_cpmid.vmat"
+								to = "materials/taito_cab/narc_cp_mid.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cptop.vmat"
+								to = "materials/taito_cab/narc_cp_top.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cpbottom.vmat"
+								to = "materials/taito_cab/narc_cp_bottom.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/taito_cab/narc_bezel.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_marquee.vmat"
+								to = "materials/taito_cab/narc_marquee.vmat"
+							},
+							{
+								from = "materials/taito_yellow.vmat"
+								to = "materials/taito_blue.vmat"
+							},
+							{
+								from = "materials/dev/yellow_vr.vmat"
+								to = "materials/dev/primary_blue.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "robocop"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_cptop.vmat"
+								to = "materials/taito_cab/robocop_cp_top.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cpbottom.vmat"
+								to = "materials/taito_cab/robocop_cp_bottom.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cpmid.vmat"
+								to = "materials/taito_cab/robocop_cp_mid.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/taito_cab/robocop_bezel.vmat"
+							},
+							{
+								from = "materials/taito_yellow.vmat"
+								to = "materials/taito_green.vmat"
+							},
+							{
+								from = "materials/dev/yellow_vr.vmat"
+								to = "materials/dev/primary_green.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_marquee.vmat"
+								to = "materials/taito_cab/robocop_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "rygar"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_cpmid.vmat"
+								to = "materials/taito_cab/rygar_cpo.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cptop.vmat"
+								to = "materials/taito_cab/rygar_cp_top.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cpbottom.vmat"
+								to = "materials/taito_cab/rygar_cp_bottom.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/taito_cab/rygar_bezel.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_marquee.vmat"
+								to = "materials/taito_cab/rygar_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "rtype"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_cpmid.vmat"
+								to = "materials/taito_cab/rtype_cp.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cptop.vmat"
+								to = "materials/taito_cab/rtype_cp_top.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cpbottom.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/taito_cab/rtype_bezel.vmat"
+							},
+							{
+								from = "materials/taito_yellow.vmat"
+								to = "materials/taito_blue.vmat"
+							},
+							{
+								from = "materials/dev/yellow_vr.vmat"
+								to = "materials/dev/primary_blue.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_marquee.vmat"
+								to = "materials/taito_cab/rtype_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "ddragon"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_cpmid.vmat"
+								to = "materials/taito_cab/ddragon_cp_mid.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cptop.vmat"
+								to = "materials/taito_cab/ddragon_cp_top.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cpbottom.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/ddragon_cabinet/double_dragon_bezel.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_marquee.vmat"
+								to = "materials/ddragon_cabinet/marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "cadash"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_cpmid.vmat"
+								to = "materials/cadash/cadash_cp_bottom.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cptop.vmat"
+								to = "materials/cadash/cadash_cp_mid.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_cpbottom.vmat"
+								to = "materials/cadash/cadash_logo.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/cadash/cadash_bezel.vmat"
+							},
+							{
+								from = "materials/taito_cab/rastan_marquee.vmat"
+								to = "materials/cadash/cadash_marquee.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "BreakPieceList"
+				children = 
+				[
+					{
+						_class = "BreakPieceExternal"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/taito_debris_01.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "_copy"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/taito_debris_02.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "_copy_copy"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/taito_debris_04.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "_copy_copy1"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/taito_debris_05.vmdl"
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Wooden.Large"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = 25.0
+							"dmg.club" = 5.0
+							"dmg.explosive" = 50.0
+							"dmg.fire" = 5.0
+							health = 1000.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_flip_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 76.0
+							burst_randomize = 303.2
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_twist_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 90.0
+							burst_randomize = 165.3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_uniform_burst"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 81.9
+							burst_randomize = 131.1
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/destrction_sequences/a4_set_c_sparks_b.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 0
+							damage_position_cp = 1
+							damage_direction_cp = 0
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/impact_glass.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "taito_cabs"
+						parent_bone = ""
+						surface_prop = "prop.wood_crate_large"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/taito_cabs.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "breakable_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

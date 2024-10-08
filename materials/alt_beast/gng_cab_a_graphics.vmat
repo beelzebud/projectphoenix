@@ -1,0 +1,21 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureColor"	"materials/altbeast_cabinet/gng_cab_b_graphics_color.png"
+	"TextureAmbientOcclusion"	"materials/altbeast_cabinet/gng_cab_b_graphics_ao.png"
+	"TextureNormal"	"materials/altbeast_cabinet/gng_cab_b_graphics_normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/altbeast_cabinet/gng_cab_b_graphics_color_png_f6a82b1e.vtex"
+		"g_tAmbientOcclusion"	"materials/altbeast_cabinet/gng_cab_b_graphics_ao_png_18bc9377.vtex"
+		"g_tNormal"	"materials/altbeast_cabinet/gng_cab_b_graphics_normal_png_675c89e7.vtex"
+	}
+}

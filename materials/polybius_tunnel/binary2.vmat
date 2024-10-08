@@ -1,0 +1,21 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureColor"	"materials/polybius_tunnel/binary2.png"
+	"TextureAmbientOcclusion"	"materials/polybius_tunnel/binary2_ao.png"
+	"TextureNormal"	"materials/polybius_tunnel/binary2normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/polybius_tunnel/binary2_png_d1a66084.vtex"
+		"g_tAmbientOcclusion"	"materials/polybius_tunnel/binary2_ao_png_6822287d.vtex"
+		"g_tNormal"	"materials/polybius_tunnel/binary2normal_png_306b115.vtex"
+	}
+}

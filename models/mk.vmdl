@@ -1,0 +1,427 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\mk.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BreakPieceList"
+				children = 
+				[
+					{
+						_class = "BreakPieceExternal"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/mk_debris_01.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "_copy"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/mk_debris_02.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "_copy_copy"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/mk_debris_03.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "_copy_copy_copy"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/mk_debris_04.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/mk_debris_05.vmdl"
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "BreakCommand"
+						game_class = "break_flip_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 86.0
+							burst_randomize = 139.5
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_twist_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 109.0
+							burst_randomize = 158.9
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_uniform_burst"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = false
+							limit_to_piece = ""
+							burst_scale = 95.6
+							burst_randomize = 191.2
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Wooden.Large"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = 26.0
+							"dmg.club" = 3.0
+							"dmg.explosive" = 60.0
+							"dmg.fire" = 5.0
+							health = 1000.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/impact_glass.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						name = "_copy1"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/instanced/construction_recuit/shot3/sparks_omni_a_instance1.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						name = "_copy1_copy"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/weapon_fx/hands_electrified_smoke_puff.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "mk"
+						parent_bone = ""
+						surface_prop = "prop.wood_crate_large"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/mk.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "rampage"
+						remaps = 
+						[
+							{
+								from = "materials/mk_cab/mk_marquee.vmat"
+								to = "materials/rampage_cab/rampage_marquee.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cp.vmat"
+								to = "materials/rampage_cab/rampage_cp.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_b.vmat"
+								to = "materials/rampage_cab/rampage_cab.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_a.vmat"
+								to = "materials/rampage_cab/rampage_cab.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab.vmat"
+								to = "materials/rampage_cab/rampage_cab.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cp_bottom.vmat"
+								to = "materials/rampage_cab/rampage_cp_lower.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "tmnt"
+						remaps = 
+						[
+							{
+								from = "materials/mk_cab/mk_cp.vmat"
+								to = "materials/tmnt/tmnt_cp.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cp_bottom.vmat"
+								to = "materials/tmnt/tmnt_logo.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_b.vmat"
+								to = "materials/tmnt/tmnt_sideart_b.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_a.vmat"
+								to = "materials/tmnt/tmnt_sideart_a.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab.vmat"
+								to = "materials/tmnt/tmnt_sideart.vmat"
+							},
+							{
+								from = "materials/mk_cab/generic_bezel_plastic.vmat"
+								to = "materials/tmnt/tmnt_bezel.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_marquee.vmat"
+								to = "materials/tmnt/tmnt_marquee.vmat"
+							},
+							{
+								from = "materials/dev/primary_red.vmat"
+								to = "materials/dev/primary_green.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "raiden2"
+						remaps = 
+						[
+							{
+								from = "materials/mk_cab/generic_bezel_plastic.vmat"
+								to = "materials/mk_cab/generic_bezel_plastic.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_marquee.vmat"
+								to = "materials/raiden2/raiden_ii_marquee.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cp.vmat"
+								to = "materials/raiden2/raiden2_cp.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cp_bottom.vmat"
+								to = "materials/raiden2/raiden2_inst_strip.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_b.vmat"
+								to = "materials/raiden2/raiden2_cab.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_a.vmat"
+								to = "materials/raiden2/raiden2_cab.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "materials/dev/primary_red.vmat"
+								to = "materials/dev/primary_blue.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "rsgun"
+						remaps = 
+						[
+							{
+								from = "materials/mk_cab/mk_marquee.vmat"
+								to = "materials/rsgun/rsgun_marquee.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cp.vmat"
+								to = "materials/rsgun/rsgun_cp.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cp_bottom.vmat"
+								to = "materials/rsgun/rsgun_inst.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_b.vmat"
+								to = "materials/rsgun/rsgun_inst_.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_a.vmat"
+								to = "materials/rsgun/rsgun_inst_.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "bloodstorm"
+						remaps = 
+						[
+							{
+								from = "materials/mk_cab/mk_marquee.vmat"
+								to = "materials/bloodstorm_art_02_marquee.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cp.vmat"
+								to = "materials/bloodstorm_art_03.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_b.vmat"
+								to = "materials/bloodstorm_art_02.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab_a.vmat"
+								to = "materials/bloodstorm_art_02.vmat"
+							},
+							{
+								from = "materials/mk_cab/mk_cab.vmat"
+								to = "materials/bloodstorm_art_01.vmat"
+							},
+						]
+					},
+				]
+			},
+		]
+		model_archetype = "breakable_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

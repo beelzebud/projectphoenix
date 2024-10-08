@@ -1,0 +1,480 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "capcom"
+						filename = "models/dmx/mesh/capcom_cab.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BreakPieceList"
+				children = 
+				[
+					{
+						_class = "BreakPieceExternal"
+						name = "side"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 0.207
+						is_essential_piece = false
+						model = "models/capcom_cab_debris_01.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "cp"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/capcom_cab_debris_02.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "screen"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/capcom_cab_debris_03.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "coin"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/capcom_cab_debris_05.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "side2"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/capcom_cab_debris_04.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "panel"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/capcom_cab_debris_07.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "speakers"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/capcom_cab_debris_06.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "pcb"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/ghouls_pcb.vmdl"
+					},
+					{
+						_class = "BreakPieceEmbedded"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "capcom_cab_debris_04"
+								filename = "models/dmx/mesh/capcom_cab_debris_04.dmx"
+								import_scale = 1.0
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = [  ]
+								}
+							},
+							{
+								_class = "BreakPieceEmbedded"
+								children = 
+								[
+									{
+										_class = "RenderMeshFile"
+										name = "capcom_cab_debris_05"
+										filename = "models/dmx/mesh/capcom_cab_debris_05.dmx"
+										import_scale = 1.0
+										import_filter = 
+										{
+											exclude_by_default = false
+											exception_list = [  ]
+										}
+									},
+								]
+								placement_mode = "default"
+								placement_bone = ""
+								placement_attach = ""
+								is_ragdoll = false
+								collision_group = "default"
+								offset = [ 0.0, 0.0, 0.0 ]
+								fadetime = 20.0
+								fade_min_dist = 0.0
+								fade_max_dist = 0.0
+								name_mode = "none"
+								random_spawn_chance = 1.0
+								is_essential_piece = false
+								manual_mode = false
+								surface_prop_override = ""
+							},
+						]
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = false
+						collision_group = "default"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 20.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						manual_mode = false
+						surface_prop_override = ""
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Wooden.Large"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = 1.0
+							"dmg.club" = 1.0
+							"dmg.explosive" = 1.0
+							"dmg.fire" = 1.0
+							health = 50.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/wood/impact_wood_chunks.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						name = "_copy1"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/impact_electronic_smoke.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_uniform_burst"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 89.6
+							burst_randomize = 281.3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						name = "_copy1_copy"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/instanced/construction_recuit/shot3/sparks_omni_e_instance1.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						name = "_copy1_copy_copy"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/impact_electronic_smoke.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_twist_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 73.0
+							burst_randomize = 239.0
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_flip_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 58.0
+							burst_randomize = 158.9
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/breakable_effects/shatter_glass_breakpieces_modelbreak_base.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "alt_beast"
+						remaps = 
+						[
+							{
+								from = "materials/gng_cabinet/gng_sideart.vmat"
+								to = "materials/alt_beast/altbeast_cab.vmat"
+							},
+							{
+								from = "materials/gng_cabinet/ghouls_marquee.vmat"
+								to = "materials/alt_beast/alt_beast_cp_top.vmat"
+							},
+							{
+								from = "materials/gng_cp.vmat"
+								to = "materials/alt_beast/altered_beast_bezel.vmat"
+							},
+							{
+								from = "materials/gng_cabinet/gng_marquee_real.vmat"
+								to = "materials/alt_beast/alt_beast_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "sf2"
+						remaps = 
+						[
+							{
+								from = "materials/gng_cabinet/gng_sideart.vmat"
+								to = "materials/sf2_cab/sf2_cab.vmat"
+							},
+							{
+								from = "aperture/models/materials/announcer_speaker_grill.vmat"
+								to = "aperture/models/materials/announcer_speaker_grill.vmat"
+							},
+							{
+								from = "materials/gng_cabinet/ghouls_marquee.vmat"
+								to = "materials/sf2_cab/sf2_cp.vmat"
+							},
+							{
+								from = "materials/gng_cp.vmat"
+								to = "materials/sf2_cab/sf2_bezel.vmat"
+							},
+							{
+								from = "materials/gng_cabinet/gng_marquee_real.vmat"
+								to = "materials/sf2_cab/sf2_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "gldnaxe"
+						remaps = 
+						[
+							{
+								from = "materials/gng_cabinet/gng_sideart.vmat"
+								to = "materials/golden_axe_cabinet/gaxe_cab.vmat"
+							},
+							{
+								from = "materials/gng_cabinet/ghouls_marquee.vmat"
+								to = "materials/golden_axe_cabinet/gaxe_cp.vmat"
+							},
+							{
+								from = "materials/gng_cp.vmat"
+								to = "materials/golden_axe_cabinet/goldnaxe_bezel.vmat"
+							},
+							{
+								from = "materials/gng_cabinet/gng_marquee_real.vmat"
+								to = "materials/golden_axe_cabinet/goldnaxe_marquee.vmat"
+							},
+							{
+								from = "materials/dev/primary_red.vmat"
+								to = "materials/dev/primary_blue.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "capcom_cab1"
+						parent_bone = ""
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/capcom_cab.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "breakable_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

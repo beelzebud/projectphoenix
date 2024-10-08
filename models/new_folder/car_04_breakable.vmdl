@@ -1,0 +1,5161 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "car_04_components"
+						filename = "models/props_vehicles/car_04_breakable_car_04_components.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "attach_body"
+						ignore_rotation = false
+						parent_bone = "car_04_root"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_body_left"
+						ignore_rotation = false
+						parent_bone = "car_04_root"
+						relative_origin = 
+						[
+							30.000000,
+							10.000000,
+							-15.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_body_right"
+						ignore_rotation = false
+						parent_bone = "car_04_root"
+						relative_origin = 
+						[
+							-30.000000,
+							10.000000,
+							-15.000000,
+						]
+						relative_angles = 
+						[
+							0.000010,
+							-180.000000,
+							-180.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_ground_front"
+						ignore_rotation = false
+						parent_bone = "car_04_root"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							70.000000,
+						]
+						relative_angles = 
+						[
+							-89.980210,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_ground_rear"
+						ignore_rotation = false
+						parent_bone = "car_04_root"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							-70.000000,
+						]
+						relative_angles = 
+						[
+							89.980210,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_headlight_left"
+						ignore_rotation = false
+						parent_bone = "grille_jnt"
+						relative_origin = 
+						[
+							25.000000,
+							6.000000,
+							4.000000,
+						]
+						relative_angles = 
+						[
+							-89.980210,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_headlight_right"
+						ignore_rotation = false
+						parent_bone = "grille_jnt"
+						relative_origin = 
+						[
+							-25.000000,
+							6.000000,
+							4.000000,
+						]
+						relative_angles = 
+						[
+							-89.980210,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_bumper_front"
+						ignore_rotation = false
+						parent_bone = "grille_jnt"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							5.000000,
+						]
+						relative_angles = 
+						[
+							-89.980210,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_door_left"
+						ignore_rotation = false
+						parent_bone = "door_left_jnt"
+						relative_origin = 
+						[
+							55.000000,
+							0.000000,
+							-0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							89.999990,
+							-89.999990,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_door_right"
+						ignore_rotation = false
+						parent_bone = "door_right_jnt"
+						relative_origin = 
+						[
+							55.000000,
+							0.000000,
+							-0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_trunk_rear"
+						ignore_rotation = false
+						parent_bone = "rear_jnt"
+						relative_origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							89.980210,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_tire_front_left"
+						ignore_rotation = false
+						parent_bone = "tire_front_left_jnt"
+						relative_origin = 
+						[
+							10.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							-89.999990,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_tire_front_right"
+						ignore_rotation = false
+						parent_bone = "tire_front_right_jnt"
+						relative_origin = 
+						[
+							10.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							89.999990,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_tire_rear_left"
+						ignore_rotation = false
+						parent_bone = "tire_rear_left_jnt"
+						relative_origin = 
+						[
+							10.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							-89.999990,
+						]
+						weight = 1.000000
+					},
+					
+					{
+						_class = "Attachment"
+						name = "attach_tire_rear_right"
+						ignore_rotation = false
+						parent_bone = "tire_rear_right_jnt"
+						relative_origin = 
+						[
+							10.000000,
+							0.000000,
+							0.000000,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							89.999990,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_jiggle_front_0"
+						source_filename = "models/props_vehicles/c04_t0_jiggle_front_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_headlight_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_bumper_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_bumper_front"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_jiggle_front_1"
+						source_filename = "models/props_vehicles/c04_t0_jiggle_front_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_bumper_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_bumper_front"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_headlight_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_jiggle_mid_0"
+						source_filename = "models/props_vehicles/c04_t0_jiggle_mid_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_jiggle_mid_1"
+						source_filename = "models/props_vehicles/c04_t0_jiggle_mid_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_jiggle_rear_0"
+						source_filename = "models/props_vehicles/c04_t0_jiggle_rear_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_trunk_rear"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_jiggle_rear_1"
+						source_filename = "models/props_vehicles/c04_t0_jiggle_rear_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_trunk_rear"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_jiggle_front_0"
+						source_filename = "models/props_vehicles/c04_t1_jiggle_front_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_headlight_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_bumper_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_bumper_front"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_jiggle_front_1"
+						source_filename = "models/props_vehicles/c04_t1_jiggle_front_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_bumper_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_bumper_front"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_headlight_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_jiggle_mid_0"
+						source_filename = "models/props_vehicles/c04_t1_jiggle_mid_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_jiggle_mid_1"
+						source_filename = "models/props_vehicles/c04_t1_jiggle_mid_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_jiggle_rear_0"
+						source_filename = "models/props_vehicles/c04_t1_jiggle_rear_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_trunk_rear"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_jiggle_rear_1"
+						source_filename = "models/props_vehicles/c04_t1_jiggle_rear_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_trunk_rear"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_jiggle_front_0"
+						source_filename = "models/props_vehicles/c04_t2_jiggle_front_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_headlight_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_bumper_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_bumper_front"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_jiggle_front_1"
+						source_filename = "models/props_vehicles/c04_t2_jiggle_front_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_bumper_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_bumper_front"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_headlight_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_jiggle_mid_0"
+						source_filename = "models/props_vehicles/c04_t2_jiggle_mid_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_jiggle_mid_1"
+						source_filename = "models/props_vehicles/c04_t2_jiggle_mid_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_jiggle_rear_0"
+						source_filename = "models/props_vehicles/c04_t2_jiggle_rear_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_trunk_rear"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_jiggle_rear_1"
+						source_filename = "models/props_vehicles/c04_t2_jiggle_rear_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_trunk_rear"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_jiggle_front_0"
+						source_filename = "models/props_vehicles/c04_t3_jiggle_front_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_headlight_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_bumper_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_bumper_front"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_jiggle_front_1"
+						source_filename = "models/props_vehicles/c04_t3_jiggle_front_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_bumper_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_bumper_front"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_headlight_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_jiggle_mid_0"
+						source_filename = "models/props_vehicles/c04_t3_jiggle_mid_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_jiggle_mid_1"
+						source_filename = "models/props_vehicles/c04_t3_jiggle_mid_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_body_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_body_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_jiggle_rear_0"
+						source_filename = "models/props_vehicles/c04_t3_jiggle_rear_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_trunk_rear"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_jiggle_rear_1"
+						source_filename = "models/props_vehicles/c04_t3_jiggle_rear_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash_ember.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_door_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_door_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_trunk_rear"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_bodyhit_front_0"
+						source_filename = "models/props_vehicles/c04_t0_bodyhit_front_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_bodyhit_front_1"
+						source_filename = "models/props_vehicles/c04_t0_bodyhit_front_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_bodyhit_front_0"
+						source_filename = "models/props_vehicles/c04_t1_bodyhit_front_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_bodyhit_front_1"
+						source_filename = "models/props_vehicles/c04_t1_bodyhit_front_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_bodyhit_front_0"
+						source_filename = "models/props_vehicles/c04_t2_bodyhit_front_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_bodyhit_front_1"
+						source_filename = "models/props_vehicles/c04_t2_bodyhit_front_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_bodyhit_front_0"
+						source_filename = "models/props_vehicles/c04_t3_bodyhit_front_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_bodyhit_front_1"
+						source_filename = "models/props_vehicles/c04_t3_bodyhit_front_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_headlight_left"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_bodyhit_rear_0"
+						source_filename = "models/props_vehicles/c04_t0_bodyhit_rear_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_bodyhit_rear_1"
+						source_filename = "models/props_vehicles/c04_t0_bodyhit_rear_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_bodyhit_rear_0"
+						source_filename = "models/props_vehicles/c04_t1_bodyhit_rear_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_bodyhit_rear_1"
+						source_filename = "models/props_vehicles/c04_t1_bodyhit_rear_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_bodyhit_rear_0"
+						source_filename = "models/props_vehicles/c04_t2_bodyhit_rear_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_bodyhit_rear_1"
+						source_filename = "models/props_vehicles/c04_t2_bodyhit_rear_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_bodyhit_rear_0"
+						source_filename = "models/props_vehicles/c04_t3_bodyhit_rear_0.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_bodyhit_rear_1"
+						source_filename = "models/props_vehicles/c04_t3_bodyhit_rear_1.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/abilities/hornet/hornet_leap_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_trunk_rear"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_tirehit_front"
+						source_filename = "models/props_vehicles/c04_t0_tirehit_front.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_tirehit_front"
+						source_filename = "models/props_vehicles/c04_t1_tirehit_front.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_tirehit_front"
+						source_filename = "models/props_vehicles/c04_t2_tirehit_front.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_front"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_front"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_tirehit_front"
+						source_filename = "models/props_vehicles/c04_t3_tirehit_front.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_front_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_front_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_tirehit_rear"
+						source_filename = "models/props_vehicles/c04_t0_tirehit_rear.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_tirehit_rear"
+						source_filename = "models/props_vehicles/c04_t1_tirehit_rear.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 8
+								event_keys = 
+								{
+									name = resource:"particles/trooper/trooper_death_smoke.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_ground_rear"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_ground_rear"
+									attachment_type_cp1 = "point"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_tirehit_rear"
+						source_filename = "models/props_vehicles/c04_t2_tirehit_rear.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_tirehit_rear"
+						source_filename = "models/props_vehicles/c04_t3_tirehit_rear.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						children = 
+						[
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 2
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_left"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/weapon_fx/bull/bull_muzzle_flash.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_right"
+									attachment_type_cp1 = "point"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 6
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_left"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_left"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 9
+								event_keys = 
+								{
+									name = resource:"particles/vehicle/vehicle_remove_sparks.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									attachment_point = "attach_tire_rear_right"
+									attachment_type = "point"
+									attachment_point_cp1 = "attach_tire_rear_right"
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+						]
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t0_idle"
+						source_filename = "models/props_vehicles/c04_t0_idle.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t1_idle"
+						source_filename = "models/props_vehicles/c04_t1_idle.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t2_idle"
+						source_filename = "models/props_vehicles/c04_t2_idle.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+					
+					{
+						_class = "AnimFile"
+						name = "c04_t3_idle"
+						source_filename = "models/props_vehicles/c04_t3_idle.dmx"
+						fade_in_time = 0.200000
+						fade_out_time = 0.200000
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+					},
+				]
+			},
+			
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_vehicles/car_04_breakable_hull.dmx"
+						surface_prop = "default"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_vehicles/car_04_breakable_hull1.dmx"
+						surface_prop = "default"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_vehicles/car_04_breakable_hull2.dmx"
+						surface_prop = "default"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_vehicles/car_04_breakable_hull3.dmx"
+						surface_prop = "default"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_vehicles/car_04_breakable_hull4.dmx"
+						surface_prop = "default"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_vehicles/car_04_breakable_hull5.dmx"
+						surface_prop = "default"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_vehicles/car_04_breakable_hull6.dmx"
+						surface_prop = "default"
+						collision_tags = ""
+						name = ""
+					},
+				]
+			},
+			
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-0.500000,
+									-14.272030,
+									-14.271780,
+								]
+								hitbox_maxs = 
+								[
+									12.707710,
+									14.271470,
+									14.295460,
+								]
+								name = "tire_front_left"
+								parent_bone = "tire_front_left_jnt"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-0.500000,
+									-14.271920,
+									-14.295470,
+								]
+								hitbox_maxs = 
+								[
+									12.707740,
+									14.271580,
+									14.271780,
+								]
+								name = "tire_front_right"
+								parent_bone = "tire_front_right_jnt"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-0.500000,
+									-14.268890,
+									-14.271600,
+								]
+								hitbox_maxs = 
+								[
+									12.707750,
+									14.274620,
+									14.295640,
+								]
+								name = "tire_rear_left"
+								parent_bone = "tire_rear_left_jnt"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-0.500000,
+									-14.272030,
+									-14.295470,
+								]
+								hitbox_maxs = 
+								[
+									12.707750,
+									14.271470,
+									14.271780,
+								]
+								name = "tire_rear_right"
+								parent_bone = "tire_rear_right_jnt"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-36.000000,
+									-15.716200,
+									-1.000000,
+								]
+								hitbox_maxs = 
+								[
+									36.000000,
+									12.592200,
+									47.051900,
+								]
+								name = "front_0"
+								parent_bone = "front_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "HitboxCapsule"
+								radius = 15.000000
+								point0 = 
+								[
+									-20.616100,
+									-5.000000,
+									50.000000,
+								]
+								point1 = 
+								[
+									24.977300,
+									-8.000000,
+									50.000000,
+								]
+								name = "front_1"
+								parent_bone = "front_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-36.000000,
+									5.600902,
+									-43.058440,
+								]
+								hitbox_maxs = 
+								[
+									36.000000,
+									39.288380,
+									26.717950,
+								]
+								name = "mid"
+								parent_bone = "car_04_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-36.000000,
+									-14.239720,
+									-47.312770,
+								]
+								hitbox_maxs = 
+								[
+									36.000000,
+									17.567800,
+									25.272450,
+								]
+								name = "rear_0"
+								parent_bone = "rear_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "Hitbox"
+								hitbox_mins = 
+								[
+									-20.324080,
+									2.682550,
+									-2.828156,
+								]
+								hitbox_maxs = 
+								[
+									24.413840,
+									30.506780,
+									10.916850,
+								]
+								name = "rear_1"
+								parent_bone = "rear_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "HitboxCapsule"
+								radius = 30.000000
+								point0 = 
+								[
+									6.000000,
+									25.000000,
+									9.000000,
+								]
+								point1 = 
+								[
+									-6.000000,
+									25.000000,
+									9.000000,
+								]
+								name = "glass_front"
+								parent_bone = "car_04_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "HitboxCapsule"
+								radius = 14.000000
+								point0 = 
+								[
+									-18.000000,
+									40.326400,
+									-33.288800,
+								]
+								point1 = 
+								[
+									-18.000000,
+									40.678220,
+									2.365547,
+								]
+								name = "glass_right"
+								parent_bone = "car_04_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							
+							{
+								_class = "HitboxCapsule"
+								radius = 14.000000
+								point0 = 
+								[
+									18.000000,
+									40.326400,
+									-33.288800,
+								]
+								point1 = 
+								[
+									18.000000,
+									40.678200,
+									2.365550,
+								]
+								name = "glass_left"
+								parent_bone = "car_04_root"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "car_04_root"
+						origin = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						angles = 
+						[
+							0.000000,
+							90.000000,
+							90.000000,
+						]
+						do_not_discard = true
+						children = 
+						[
+							
+							{
+								_class = "Bone"
+								name = "front_root"
+								origin = 
+								[
+									0.000000,
+									23.308000,
+									25.708000,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+								children = 
+								[
+									
+									{
+										_class = "Bone"
+										name = "door_left_jnt"
+										origin = 
+										[
+											38.565540,
+											-0.000050,
+											0.000326,
+										]
+										angles = 
+										[
+											87.360170,
+											97.825050,
+											-168.386900,
+										]
+										do_not_discard = true
+										children = 
+										[
+											
+											{
+												_class = "Bone"
+												name = "mirror_left_jnt"
+												origin = 
+												[
+													3.755539,
+													-3.764030,
+													-11.981280,
+												]
+												angles = 
+												[
+													25.178740,
+													85.213400,
+													-93.142240,
+												]
+												do_not_discard = true
+											},
+										]
+									},
+									
+									{
+										_class = "Bone"
+										name = "door_right_jnt"
+										origin = 
+										[
+											-38.564500,
+											0.007206,
+											-0.160780,
+										]
+										angles = 
+										[
+											87.364550,
+											82.145490,
+											-11.084440,
+										]
+										do_not_discard = true
+										children = 
+										[
+											
+											{
+												_class = "Bone"
+												name = "mirror_right_jnt"
+												origin = 
+												[
+													3.806993,
+													-3.693226,
+													12.091640,
+												]
+												angles = 
+												[
+													-24.233650,
+													85.004830,
+													93.050610,
+												]
+												do_not_discard = true
+											},
+										]
+									},
+									
+									{
+										_class = "Bone"
+										name = "grille_jnt"
+										origin = 
+										[
+											0.000000,
+											-8.871472,
+											55.142680,
+										]
+										angles = 
+										[
+											0.000000,
+											0.000000,
+											0.000000,
+										]
+										do_not_discard = true
+									},
+									
+									{
+										_class = "Bone"
+										name = "tire_front_left_jnt"
+										origin = 
+										[
+											30.382840,
+											-9.445047,
+											21.299560,
+										]
+										angles = 
+										[
+											0.000000,
+											0.000000,
+											89.999990,
+										]
+										do_not_discard = true
+										children = 
+										[
+											
+											{
+												_class = "Bone"
+												name = "hubcap_front_left_jnt"
+												origin = 
+												[
+													11.345680,
+													0.046566,
+													-0.052980,
+												]
+												angles = 
+												[
+													0.000000,
+													0.000000,
+													0.000005,
+												]
+												do_not_discard = true
+											},
+										]
+									},
+									
+									{
+										_class = "Bone"
+										name = "tire_front_right_jnt"
+										origin = 
+										[
+											-30.382840,
+											-9.445051,
+											21.299550,
+										]
+										angles = 
+										[
+											0.000000,
+											-180.000000,
+											89.999990,
+										]
+										do_not_discard = true
+										children = 
+										[
+											
+											{
+												_class = "Bone"
+												name = "hubcap_front_right_jnt"
+												origin = 
+												[
+													11.345660,
+													0.046543,
+													0.052993,
+												]
+												angles = 
+												[
+													-0.000000,
+													-0.000000,
+													-0.000004,
+												]
+												do_not_discard = true
+											},
+										]
+									},
+									
+									{
+										_class = "Bone"
+										name = "hood_jnt"
+										origin = 
+										[
+											-0.000994,
+											17.165860,
+											7.959751,
+										]
+										angles = 
+										[
+											-80.635770,
+											-89.981380,
+											89.982110,
+										]
+										do_not_discard = true
+									},
+								]
+							},
+							
+							{
+								_class = "Bone"
+								name = "rear_root"
+								origin = 
+								[
+									0.000000,
+									23.308000,
+									-47.476200,
+								]
+								angles = 
+								[
+									0.000000,
+									0.000000,
+									0.000000,
+								]
+								do_not_discard = true
+								children = 
+								[
+									
+									{
+										_class = "Bone"
+										name = "rear_jnt"
+										origin = 
+										[
+											0.000000,
+											4.634384,
+											-44.821440,
+										]
+										angles = 
+										[
+											0.000000,
+											0.000000,
+											0.000000,
+										]
+										do_not_discard = true
+										children = 
+										[
+											
+											{
+												_class = "Bone"
+												name = "fuelport_left_jnt"
+												origin = 
+												[
+													19.008020,
+													5.189505,
+													-5.571091,
+												]
+												angles = 
+												[
+													-19.508520,
+													-89.995780,
+													-90.000000,
+												]
+												do_not_discard = true
+											},
+											
+											{
+												_class = "Bone"
+												name = "fuelport_mid_jnt"
+												origin = 
+												[
+													-0.010171,
+													5.189508,
+													-5.571083,
+												]
+												angles = 
+												[
+													-19.508520,
+													-89.995780,
+													-90.000000,
+												]
+												do_not_discard = true
+											},
+											
+											{
+												_class = "Bone"
+												name = "fuelport_right_jnt"
+												origin = 
+												[
+													-19.007990,
+													5.122076,
+													-5.547165,
+												]
+												angles = 
+												[
+													-19.508050,
+													-90.004310,
+													-90.000010,
+												]
+												do_not_discard = true
+											},
+										]
+									},
+									
+									{
+										_class = "Bone"
+										name = "tire_rear_left_jnt"
+										origin = 
+										[
+											30.068610,
+											-8.703478,
+											-14.940990,
+										]
+										angles = 
+										[
+											0.000000,
+											0.000000,
+											89.999990,
+										]
+										do_not_discard = true
+										children = 
+										[
+											
+											{
+												_class = "Bone"
+												name = "hubcap_rear_left_jnt"
+												origin = 
+												[
+													11.345680,
+													0.046539,
+													-0.052981,
+												]
+												angles = 
+												[
+													0.000000,
+													0.000000,
+													0.000005,
+												]
+												do_not_discard = true
+											},
+										]
+									},
+									
+									{
+										_class = "Bone"
+										name = "tire_rear_right_jnt"
+										origin = 
+										[
+											-30.068600,
+											-8.703482,
+											-14.940990,
+										]
+										angles = 
+										[
+											0.000000,
+											-180.000000,
+											89.999990,
+										]
+										do_not_discard = true
+										children = 
+										[
+											
+											{
+												_class = "Bone"
+												name = "hubcap_rear_right_jnt"
+												origin = 
+												[
+													11.345660,
+													0.046581,
+													0.052992,
+												]
+												angles = 
+												[
+													-0.000000,
+													-0.000000,
+													-0.000004,
+												]
+												do_not_discard = true
+											},
+										]
+									},
+									
+									{
+										_class = "Bone"
+										name = "trunk_jnt"
+										origin = 
+										[
+											-0.000605,
+											18.221090,
+											-27.071800,
+										]
+										angles = 
+										[
+											82.506710,
+											-89.916220,
+											-89.915640,
+										]
+										do_not_discard = true
+									},
+								]
+							},
+						]
+					},
+				]
+			},
+		]
+		anim_graph_name = "models/props_vehicles/car_04_breakable.vanmgrph"
+	}
+}

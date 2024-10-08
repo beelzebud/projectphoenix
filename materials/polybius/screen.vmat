@@ -1,0 +1,33 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_SELF_ILLUM"	"1"
+	"F_DO_NOT_CAST_SHADOWS"	"1"
+	"F_TEXTURE_ANIMATION"	"1"
+	"g_nNumAnimationCells"	"17"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_flSelfIllumScale"	"1"
+	"g_flAnimationTimeOffset"	"0"
+	"g_flAnimationTimePerFrame"	"0.5"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 0.987805 0.000000 0.000000]"
+	"TextureGlossiness"	"[0.439000 0.439000 0.439000 0.000000]"
+	"TextureNormal"	"[0.501961 0.501961 1.000000 0.000000]"
+	"g_vSelfIllumScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vSelfIllumTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"TextureSelfIllumMask"	"[0.738000 0.738000 0.738000 0.000000]"
+	"g_vAnimationGrid"	"[1.000000 1.000000 0.000000 0.000000]"
+	"TextureColor"	"materials/polybius/1.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/polybius/1_png_14b1d75c.vtex"
+		"g_tNormal"	"materials/polybius/screen_vmat_g_tnormal_b0417c24.vtex"
+		"g_tSelfIllumMask"	"materials/polybius/screen_vmat_g_tselfillummask_89ccda27.vtex"
+	}
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"	"computer"
+	}
+}

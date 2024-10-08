@@ -1,0 +1,323 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\neo-geo.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BreakPieceList"
+				children = 
+				[
+					{
+						_class = "BreakPieceExternal"
+						name = "1"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/neo-geo-cp_color.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "2"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/neo-geo_monitor_shattered.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "3"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/neo-geo_panel.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "4"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 0.133
+						is_essential_piece = false
+						model = "models/neo-geo_side.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "6"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 0.251
+						is_essential_piece = false
+						model = "models/neo-geo_side2.vmdl"
+					},
+					{
+						_class = "BreakPieceExternal"
+						name = "5"
+						placement_mode = "default"
+						placement_bone = ""
+						placement_attach = ""
+						is_ragdoll = true
+						collision_group = "debris"
+						offset = [ 0.0, 0.0, 0.0 ]
+						fadetime = 0.0
+						fade_min_dist = 0.0
+						fade_max_dist = 0.0
+						name_mode = "none"
+						random_spawn_chance = 1.0
+						is_essential_piece = false
+						model = "models/neo_geo_pcb.vmdl"
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Wooden.Large"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = 25.0
+							"dmg.club" = 5.0
+							"dmg.explosive" = 50.0
+							"dmg.fire" = 5.0
+							health = 1000.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/impact_fx/impact_glass.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_uniform_burst"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 83.3
+							burst_randomize = 169.3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_create_particle"
+						game_keys = 
+						{
+							name = resource:"particles/destrction_sequences/a4_set_c_sparks_b.vpcf"
+							cp0_model = resource:""
+							cp0_snapshot = resource:""
+							skin_cp = 1
+							damage_position_cp = 2
+							damage_direction_cp = 3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_flip_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 95.0
+							burst_randomize = 83.3
+						}
+					},
+					{
+						_class = "BreakCommand"
+						game_class = "break_twist_pieces"
+						game_keys = 
+						{
+							offset = [ 0.0, 0.0, 0.0 ]
+							attachment_point = ""
+							center_on_damage_point = true
+							limit_to_piece = ""
+							burst_scale = 112.0
+							burst_randomize = 114.7
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "samsho5"
+						remaps = 
+						[
+							{
+								from = "materials/neogeo_cab/garou_cp.vmat"
+								to = "materials/neogeo_cab/samsho5_cp.vmat"
+							},
+							{
+								from = "materials/neogeo_cab/garou_marquee.vmat"
+								to = "materials/neogeo_cab/samsho5_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "mslug"
+						remaps = 
+						[
+							{
+								from = "materials/neogeo_cab/garou_cp.vmat"
+								to = "materials/neogeo_cab/mslug_cp.vmat"
+							},
+							{
+								from = "materials/neogeo_cab/garou_marquee.vmat"
+								to = "materials/neogeo_cab/mslug6_marquee.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "lastbld2"
+						remaps = 
+						[
+							{
+								from = "materials/neogeo_cab/garou_marquee.vmat"
+								to = "materials/neogeo_cab/lastbld2_marquee.vmat"
+							},
+							{
+								from = "materials/neogeo_cab/garou_cp.vmat"
+								to = "materials/neogeo_cab/lstbld2_cp.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "kof2000"
+						remaps = 
+						[
+							{
+								from = "materials/neogeo_cab/garou_cp.vmat"
+								to = "materials/neogeo_cab/kof2000_cp.vmat"
+							},
+							{
+								from = "materials/neogeo_cab/garou_marquee.vmat"
+								to = "materials/neogeo_cab/kof2000_marquee.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						parent_bone = ""
+						surface_prop = "prop.wood_crate_large"
+						collision_prop = "default_no_npc_no_player_movement"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/neo-geo.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "breakable_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}

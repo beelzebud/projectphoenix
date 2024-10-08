@@ -1,0 +1,10 @@
+"Layer0"
+{
+	"shader"	"projected_decal_modulate.vfx"
+	"F_MODULATE_2X"	"1"
+	"TextureColor"	"materials/polybius_tunnel/binary1.png"
+	"Compiled Textures"
+	{
+		"g_tColor"	"materials/polybius_tunnel/binary1_png_3ea5fa33.vtex"
+	}
+}

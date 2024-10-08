@@ -1,0 +1,214 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "monitor02_bg_body_lod0"
+						filename = "models/props_lab/monitor02_screen_monitor02_bg_body_lod0.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "broken_back"
+						filename = "models/props_lab/monitor02_screen_broken_back1.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "broken_front"
+						filename = "models/props_lab/monitor02_screen_broken_front2.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					
+					{
+						_class = "BodyGroup"
+						name = "state"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"monitor02_bg_body_lod0",
+								]
+							},
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"broken_back",
+								]
+							},
+						]
+					},
+				]
+			},
+			
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_lab/monitor02_screen_hull.dmx"
+						surface_prop = "prop.computer"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_lab/monitor02_screen_hull1.dmx"
+						surface_prop = "prop.computer"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_lab/monitor02_screen_hull2.dmx"
+						surface_prop = "prop.glass_tv_tube_02"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_lab/monitor02_screen_hull3.dmx"
+						surface_prop = "prop.concrete_block"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_lab/monitor02_screen_hull4.dmx"
+						surface_prop = "prop.computer"
+						collision_tags = ""
+						name = ""
+					},
+				]
+			},
+			
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							damage_table = ""
+							dmg.club = -1.000000
+							dmg.explosive = -1.000000
+							dmg.fire = -1.000000
+							health = 5.000000
+							spawn_motion_disabled = false
+							bakelighting = true
+							dmg.bullets = -1.000000
+						}
+					},
+				]
+			},
+			
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					
+					{
+						_class = "Bone"
+						name = "monitor_0"
+						origin = 
+						[
+							2.698416,
+							-0.000000,
+							-0.000000,
+						]
+						angles = 
+						[
+							-86.014730,
+							165.704800,
+							89.999950,
+						]
+						do_not_discard = true
+						children = 
+						[
+							
+							{
+								_class = "Bone"
+								name = "monitor_1"
+								origin = 
+								[
+									4.559441,
+									-0.000000,
+									-0.000002,
+								]
+								angles = 
+								[
+									-75.704560,
+									-86.014880,
+									0.000041,
+								]
+								do_not_discard = true
+								children = 
+								[
+									
+									{
+										_class = "Bone"
+										name = "monitor_2"
+										origin = 
+										[
+											-10.988940,
+											10.028050,
+											6.321271,
+										]
+										angles = 
+										[
+											7.905744,
+											-1.249820,
+											-0.171934,
+										]
+										do_not_discard = true
+									},
+								]
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}

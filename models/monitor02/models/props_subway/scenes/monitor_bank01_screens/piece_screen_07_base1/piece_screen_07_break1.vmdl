@@ -1,0 +1,99 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "unnamed_1"
+						filename = "models/props_subway/scenes/monitor_bank01_screens/piece_screen_07_base1/piece_screen_07_break1_unnamed_1.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "placementOrigin"
+						ignore_rotation = false
+						parent_bone = ""
+						relative_origin = 
+						[
+							2.805264,
+							0.296982,
+							0.026331,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							0.000000,
+							0.000000,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/props_subway/scenes/monitor_bank01_screens/piece_screen_07_base1/piece_screen_07_break1_hull.dmx"
+						surface_prop = "prop.glass_tv_tube"
+						collision_tags = ""
+						name = ""
+					},
+				]
+			},
+			
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							dmg.club = -1.000000
+							dmg.explosive = -1.000000
+							dmg.fire = -1.000000
+							health = -1.000000
+							spawn_motion_disabled = true
+							dmg.bullets = -1.000000
+						}
+					},
+				]
+			},
+		]
+	}
+}

@@ -1,0 +1,123 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\taito_debris_01.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "taito_debris_01"
+						parent_bone = ""
+						surface_prop = "prop.glass_tv_tube"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/taito_debris_01.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "narc"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/taito_cab/narc_bezel.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "robocop"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/taito_cab/robocop_bezel.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "rygar"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/taito_cab/rygar_bezel.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "rtype"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/taito_cab/rtype_bezel.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "ddragon"
+						remaps = 
+						[
+							{
+								from = "materials/taito_cab/rastan_bezel.vmat"
+								to = "materials/ddragon_cabinet/double_dragon_bezel.vmat"
+							},
+						]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\Steam\steamapps\common\Half-Life Alyx\game\bin\win64\resourcecompiler.exe" -f "c:\Program Files (x86)\Steam\steamapps\common\Half-Life Alyx\content\hlvr_addons\projectphoenix\resourcemanifests\projectphoenix_addon_resources.vrman"

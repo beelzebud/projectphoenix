@@ -1,0 +1,24 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_plasma_surface.vfx"
+
+	g_flEmissiveBrightness "1.728"
+	g_flEmissiveScale "0.900"
+	g_flNoise "2.684"
+	g_flOpacity "1.000"
+
+	//---- Emissive ----
+	g_vEmissiveTint "[0.678431 0.105882 0.105882 0.000000]"
+	TextureEmissiveGradient "materials/polybius/face.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	DynamicParams
+	{
+		g_flEmissiveScale "1 + 4.5 * (1 - pow(abs(sin((time / 5) * 3.14159)), 0.5))"
+		g_vEmissiveTint "1 + 4.5 * (1 - pow(abs(sin((time / 5) * 3.14159)), 0.5))\n"
+	}
+}

@@ -1,0 +1,55 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Animation ----
+	F_TEXTURE_ANIMATION 1
+
+	//---- Color ----
+	F_VERTEX_COLOR 1
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "1.230"
+	g_flGreenShift "0.920"
+	g_flJitterSpeed "1.700"
+	g_flRedShift "1.000"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "materials/workshop_examples/monitor/contrast_control.tga"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.510"
+	g_flTintScale "0.833"
+	g_vColorTint "[0.392157 0.462745 0.407843 0.000000]"
+	g_vScanlineTextureOffset "[0.015 0.220]"
+	ScanlineDistortion "[0.125490 0.168627 0.113725 0.000000]"
+	TextureColor "materials/polybius/screen_animation.png"
+	TextureFilmGrain "materials/workshop_examples/monitor/film_grain_01.png"
+	TextureScanlines "materials/workshop_examples/monitor/scanline_1024.png"
+	TextureVignette "materials/workshop_examples/monitor/vignette_01.png"
+
+	//---- Specular ----
+	g_flReflectionStrength "11.864"
+	g_fSpecularRoughness "0.237"
+	SpecularDirt "materials/default/default_normal.tga"
+	SpecularDistortion "materials/polybius/screen_vmat_g_tnormal_55567146.png"
+
+	//---- Texture Animation ----
+	g_flAnimationFrame "0.000"
+	g_flAnimationTimeOffset "0.000"
+	g_flAnimationTimePerFrame "2.000"
+	g_nNumAnimationCells "15"
+	g_vAnimationGrid "[5 3]"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.073"
+	VSyncControl "materials/workshop_examples/monitor/vsync_control.tga"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "prop.glass_tv_tube"
+	}
+}

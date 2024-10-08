@@ -1,0 +1,27 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"F_SELF_ILLUM"	"1"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_flSelfIllumScale"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vSelfIllumScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vSelfIllumTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"TextureSelfIllumMask"	"[0.968000 0.968000 0.968000 0.000000]"
+	"TextureColor"	"materials/neogeo_cab/mslug6_title_color.png"
+	"TextureAmbientOcclusion"	"materials/neogeo_cab/mslug6_title_ao.png"
+	"TextureNormal"	"materials/neogeo_cab/mslug6_title_normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/neogeo_cab/mslug6_title_color_png_739c3edc.vtex"
+		"g_tAmbientOcclusion"	"materials/neogeo_cab/mslug6_title_ao_png_2ad75702.vtex"
+		"g_tNormal"	"materials/neogeo_cab/mslug6_title_normal_png_93d8bf9.vtex"
+		"g_tSelfIllumMask"	"materials/neogeo_cab/mslug6_title_vmat_g_tselfillummask_76a5bfa3.vtex"
+	}
+}

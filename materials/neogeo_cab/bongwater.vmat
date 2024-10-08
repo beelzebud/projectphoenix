@@ -1,0 +1,86 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_simple_liquid.vfx"
+
+	//---- Creates Foam ----
+	F_FOAM 1
+
+	//---- Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Bubbles ----
+	g_flBubbleDepthFalloff "9.637"
+	g_flBubbleOpacity "7.941"
+	g_flBubbleScale "2.000"
+	g_flBubblesMaximum "3.492"
+	g_flBubblesMinimum "2.769"
+	g_flBubbleSpaceScale "1.663"
+	g_flBubbleSpeed "0.471"
+	g_flBubbleStrength "4.197"
+	g_vBubbleColorInner "[0.000000 0.000000 0.000000 0.000000]"
+	g_vBubbleColorOuter "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.010"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Liquid ----
+	g_flBrightenEmptyArea "5.283"
+	g_flFoamLevelAdjust "0.000"
+	g_flFresnelGlassThickness "0.214"
+	g_flLiquidBackFade "0.000"
+	g_flLiquidBackOffset "49.231"
+	g_flLiquidBrightness "0.735"
+	g_flLiquidEmissiveStrength "0.000"
+	g_flLiquidInnerGlow "1.231"
+	g_flLiquidLevelHeight "0.933"
+	g_flLiquidLevelHeightDelta "0.611"
+	g_flLiquidRoughness "0.682"
+	g_flLiquidSharpness "30.000"
+	g_flLiquidSpecularStrength "44.444"
+	g_flLiquidSurfaceSpecularStrength "1.000"
+	g_flLiquidWobbleScale "0.000"
+	g_flLiquidWobbleSpeed "0.000"
+	g_flLiquidWobbleWavelength "0.000"
+	g_flMaskMaximum "0.426"
+	g_flMaskMinimum "0.912"
+	g_flSurfaceTension "11.765"
+	g_flTransmissiveStrength "0.000"
+	g_flWaterLineStrength "2.143"
+	g_vFoamColor "[0.501961 1.000000 0.200000 0.000000]"
+	g_vLiquidColor "[0.117647 0.564706 1.000000 1.000000]"
+	g_vLiquidLevelDownwardsMinMidMax "[100.000 100.000 -100.000]"
+	g_vLiquidLevelSidewardsMinMidMax "[-100.000 -100.000 -100.000]"
+	g_vLiquidLevelUpwardsMinMidMax "[-100.000 -100.000 -100.000]"
+	TextureLiquidMask "materials/water/bongwater_mask.png"
+
+	//---- Refraction ----
+	g_flChromaticDispersion "-0.500"
+	g_flCubeRefractBrightness "0.000"
+	g_flCubeRefractLiquidTransparency "0.500"
+	g_flCubeRefractTransparency "0.500"
+	g_flRefractRoughnessMultiplier "4.000"
+
+	//---- Simple Material ----
+	TextureColorA "materials/water/caustic.png"
+	TextureMetalnessA "materials/water/default_8fbc2820_refl.png"
+	TextureNormalA "materials/water/survival_river_04_normal.png"
+	TextureRoughnessA "materials/water/water_river_sharp_8eb7163c_rough.png"
+
+	//---- Test Values ----
+	g_flTestAgitation "0.300"
+	g_flTestFoaming "0.000"
+	g_vTestGravityDir "[1.000 -0.846 -1.000]"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}

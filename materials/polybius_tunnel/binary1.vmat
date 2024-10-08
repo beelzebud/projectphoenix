@@ -1,0 +1,28 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"F_SELF_ILLUM"	"1"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_flSelfIllumScale"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureGlossiness"	"[0.484000 0.484000 0.484000 0.000000]"
+	"g_vSelfIllumScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vSelfIllumTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"TextureSelfIllumMask"	"[0.808000 0.808000 0.808000 0.000000]"
+	"TextureColor"	"materials/polybius_tunnel/binary1.png"
+	"TextureAmbientOcclusion"	"materials/polybius_tunnel/binary1_ao.png"
+	"TextureNormal"	"materials/polybius_tunnel/binary1_normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/polybius_tunnel/binary1_png_3ea5fa33.vtex"
+		"g_tAmbientOcclusion"	"materials/polybius_tunnel/binary1_ao_png_358936ca.vtex"
+		"g_tNormal"	"materials/polybius_tunnel/binary1_normal_png_5b9282b4.vtex"
+		"g_tSelfIllumMask"	"materials/polybius_tunnel/binary1_vmat_g_tselfillummask_623dbad9.vtex"
+	}
+}

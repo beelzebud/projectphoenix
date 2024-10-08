@@ -1,0 +1,54 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_monitor.vfx"
+
+	//---- Animation ----
+	F_TEXTURE_ANIMATION 1
+
+	//---- Translucent ----
+	F_ADDITIVE_BLEND_OVER_ALPHA 1
+
+	//---- Additive Blend Over Alpha ----
+	g_flAlphaOutputMaximum "9.474"
+	g_flAlphaOutputMinimum "0.328"
+
+	//---- Chromatic Abberation ----
+	g_flBlueShift "0.673"
+	g_flGreenShift "1.923"
+	g_flJitterSpeed "6.635"
+	g_flRedShift "0.000"
+	TextureJitterControl "materials/workshop_examples/monitor/jitter_control.tga"
+
+	//---- Contrast ----
+	TextureContrastControl "materials/workshop_examples/monitor/contrast_control.tga"
+
+	//---- Display ----
+	g_flFilmGrainStrength "0.779"
+	g_flTintScale "3.846"
+	g_vColorTint "[0.211765 0.721569 0.184314 0.000000]"
+	g_vScanlineTextureOffset "[0.514 1.000]"
+	ScanlineDistortion "[0.172549 0.545098 0.070588 0.000000]"
+	TextureColor "materials/screen_power-on_color.png"
+	TextureFilmGrain "materials/workshop_examples/monitor/film_grain_01.png"
+	TextureScanlines "[0.282353 0.470588 0.160784 0.000000]"
+	TextureVignette "materials/workshop_examples/monitor/vignette_01.png"
+
+	//---- Specular ----
+	g_flReflectionStrength "0.000"
+	g_fSpecularRoughness "0.388"
+	SpecularDirt "materials/default/default_normal.tga"
+	SpecularDistortion "materials/default/default_normal.tga"
+
+	//---- Texture Animation ----
+	g_flAnimationFrame "0.000"
+	g_flAnimationTimeOffset "0.000"
+	g_flAnimationTimePerFrame "0.100"
+	g_nNumAnimationCells "16"
+	g_vAnimationGrid "[4 4]"
+
+	//---- VSYNC ----
+	g_flVSYNCJumpScale "0.224"
+	VSyncControl "materials/workshop_examples/monitor/vsync_control.tga"
+}

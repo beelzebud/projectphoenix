@@ -1,0 +1,21 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureColor"	"materials/taito_cab/rtype_cab_color.png"
+	"TextureAmbientOcclusion"	"materials/taito_cab/rtype_cab_ao.png"
+	"TextureNormal"	"materials/taito_cab/rtype_cab_normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/taito_cab/rtype_cab_color_png_12892c70.vtex"
+		"g_tAmbientOcclusion"	"materials/taito_cab/rtype_cab_ao_png_22ae092a.vtex"
+		"g_tNormal"	"materials/taito_cab/rtype_cab_normal_png_6f6902c6.vtex"
+	}
+}

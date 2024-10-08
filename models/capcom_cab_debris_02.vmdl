@@ -1,0 +1,101 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\capcom_cab_debris_02.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "capcom_cab_debris_02"
+						parent_bone = ""
+						surface_prop = "prop.wood_panel"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/capcom_cab_debris_02.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "alt_beast"
+						remaps = 
+						[
+							{
+								from = "materials/gng_cabinet/ghouls_marquee.vmat"
+								to = "materials/alt_beast/alt_beast_cp_top.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "sf2"
+						remaps = 
+						[
+							{
+								from = "materials/gng_cabinet/ghouls_marquee.vmat"
+								to = "materials/sf2_cab/sf2_cp.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "goldnaxe"
+						remaps = 
+						[
+							{
+								from = "materials/gng_cabinet/ghouls_marquee.vmat"
+								to = "materials/golden_axe_cabinet/gaxe_cp.vmat"
+							},
+						]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

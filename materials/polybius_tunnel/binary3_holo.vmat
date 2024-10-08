@@ -1,0 +1,14 @@
+"Layer0"
+{
+	"shader"	"grasstile_preview.vfx"
+	"g_flGrassHeightMax"	"141.041"
+	"g_flGrassHeightMin"	"75.634"
+	"g_flGrassWidth"	"104.659"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"TextureTranslucency"	"[0.425000 0.425000 0.425000 0.000000]"
+	"TextureColor"	"materials/polybius_tunnel/binary1.png"
+	"Compiled Textures"
+	{
+		"g_tColor"	"materials/polybius_tunnel/binary1_png_1c7e7edf.vtex"
+	}
+}

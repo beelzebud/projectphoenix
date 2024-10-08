@@ -1,0 +1,28 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"F_SPECULAR"	"1"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flAmbientOcclusionStrengthDirectSpecular"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_flMetalness"	"0"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vReflectanceRange"	"[0.000000 1.000000 0.000000 0.000000]"
+	"TextureAmbientOcclusion"	"materials/dkong/dkong_title_ao.png"
+	"TextureNormal"	"materials/dkong/dkong_title_normal.png"
+	"TextureColor"	"materials/dkong/dkong_title_color.png"
+	"TextureReflectance"	"materials/dkong/dkong_title_3678aabe_refl.png"
+	"TextureColor"	"materials/dkong/dkong_title_color.png"
+	"Compiled Textures"
+	{
+		"g_tAmbientOcclusion"	"materials/dkong/dkong_title_ao._png_6a1bea6e.vtex"
+		"g_tNormal"	"materials/dkong/dkong_title_normal_png_d8a80c7e.vtex"
+		"g_tColor1"	"materials/dkong/dkong_title_color_png_3678aabe.vtex"
+		"g_tColor2"	"materials/dkong/dkong_title_color_png_b3db63f1.vtex"
+	}
+}

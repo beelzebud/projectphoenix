@@ -1,0 +1,21 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"TextureColor"	"materials/neogeo_cab/samsho5inst_color.png"
+	"TextureAmbientOcclusion"	"materials/neogeo_cab/samsho5inst_ao.png"
+	"TextureNormal"	"materials/neogeo_cab/samsho5inst_normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/neogeo_cab/samsho5inst_color_png_a8077624.vtex"
+		"g_tAmbientOcclusion"	"materials/neogeo_cab/samsho5inst_ao_png_b98d250f.vtex"
+		"g_tNormal"	"materials/neogeo_cab/samsho5inst_normal_png_bad60a9e.vtex"
+	}
+}

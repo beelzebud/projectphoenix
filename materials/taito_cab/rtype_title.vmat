@@ -1,0 +1,27 @@
+"Layer0"
+{
+	"shader"	"vr_standard.vfx"
+	"F_INDIRECT_TEXTURES"	"2"
+	"F_SELF_ILLUM"	"1"
+	"g_flAmbientOcclusionStrengthDirectDiffuse"	"1"
+	"g_flDirectionalLightmapMinZ"	"0.05"
+	"g_flDirectionalLightmapStrength"	"1"
+	"g_flSelfIllumScale"	"1"
+	"g_vColorTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"g_vTexCoordOffset"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vTexCoordScale"	"[1.000000 1.000000 0.000000 0.000000]"
+	"g_vTexCoordScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vSelfIllumScrollSpeed"	"[0.000000 0.000000 0.000000 0.000000]"
+	"g_vSelfIllumTint"	"[1.000000 1.000000 1.000000 0.000000]"
+	"TextureSelfIllumMask"	"[0.922000 0.922000 0.922000 0.000000]"
+	"TextureColor"	"materials/taito_cab/rtype_title_color.png"
+	"TextureAmbientOcclusion"	"materials/taito_cab/rtype_title_ao.png"
+	"TextureNormal"	"materials/taito_cab/rtype_title_normal.png"
+	"Compiled Textures"
+	{
+		"g_tColor2"	"materials/taito_cab/rtype_title_color_png_f4d1fd55.vtex"
+		"g_tAmbientOcclusion"	"materials/taito_cab/rtype_title_ao_png_8306d249.vtex"
+		"g_tNormal"	"materials/taito_cab/rtype_title_normal_png_62e6a21.vtex"
+		"g_tSelfIllumMask"	"materials/taito_cab/rtype_title_vmat_g_tselfillummask_93e96b37.vtex"
+	}
+}

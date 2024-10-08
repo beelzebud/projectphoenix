@@ -1,0 +1,252 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_000"
+						filename = "models/particle/tv_tube_debris_piece_000.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_001"
+						filename = "models/particle/tv_tube_debris_piece_0011.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_002"
+						filename = "models/particle/tv_tube_debris_piece_0022.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_003"
+						filename = "models/particle/tv_tube_debris_piece_0033.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_004"
+						filename = "models/particle/tv_tube_debris_piece_0044.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_005"
+						filename = "models/particle/tv_tube_debris_piece_0055.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_006"
+						filename = "models/particle/tv_tube_debris_piece_0066.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_007"
+						filename = "models/particle/tv_tube_debris_piece_0077.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_008"
+						filename = "models/particle/tv_tube_debris_piece_0088.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "piece_009"
+						filename = "models/particle/tv_tube_debris_piece_0099.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_000"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_000",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_001"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_001",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_002"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_002",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_003"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_003",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_004"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_004",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_005"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_005",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_006"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_006",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_007"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_007",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_008"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_008",
+								]
+							},
+						]
+					},
+					
+					{
+						_class = "BodyGroup"
+						name = "bg_piece_009"
+						children = 
+						[
+							
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"piece_009",
+								]
+							},
+						]
+					},
+				]
+			},
+		]
+	}
+}
