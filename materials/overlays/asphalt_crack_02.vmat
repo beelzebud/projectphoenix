@@ -1,0 +1,11 @@
+"Layer0"
+{
+	"shader"	"csgo_decalmodulate.vfx"
+	"F_OVERLAY"	"1"
+	"DecalColor"	"materials/de_nuke/hr_nuke/asphalt_crack_02_color.png"
+	"DecalTranslucency"	"materials/de_nuke/hr_nuke/asphalt_crack_02_3a7a4713_trans.png"
+	"Compiled Textures"
+	{
+		"g_tColor"	"materials/de_nuke/hr_nuke/asphalt_crack_02_color_psd_3a7a4713.vtex"
+	}
+}

@@ -27,23 +27,6 @@
 				[
 					{
 						_class = "GenericGameData"
-						game_class = "door_sounds"
-						game_keys = 
-						{
-							opened = "DoorMetal.FullyOpened"
-							closed = "DoorMetal.FullyClosed"
-							move = ""
-							jiggle = "DoorMetal.DoorJiggle"
-							locked = "DoorMetal.HandleJiggle"
-							locked_anim = "DoorMetal.HandleAutoJiggle"
-							unlatch = "PhysDoor.Metal_LatchRetract"
-							latch = "PhysDoor.Metal_LatchEngage"
-							unlock = "Lock_Door_Default.Unlock"
-							lock = "Lock_Door_Default.Lock"
-						}
-					},
-					{
-						_class = "GenericGameData"
 						game_class = "prop_data"
 						game_keys = 
 						{
@@ -77,7 +60,7 @@
 						filename = "models/dmx/mesh/stall_door.dmx"
 						import_scale = 1.0
 						faceMergeAngle = 10.0
-						maxHullVertices = 0
+						maxHullVertices = 8
 						import_mode = "SingleHull"
 						optimization_algorithm = "QEM"
 						import_filter = 
@@ -94,99 +77,18 @@
 				[
 					{
 						_class = "Attachment"
-						name = "handle_01"
+						name = "handle"
 						parent_bone = ""
-						relative_origin = [ 0.444614, 17.782972, 0.732532 ]
+						relative_origin = [ 18.371601, -1.913555, 2.01795 ]
 						relative_angles = [ 0.0, 0.0, 0.0 ]
 						weight = 1.0
 						ignore_rotation = false
-					},
-					{
-						_class = "Attachment"
-						name = "handle_02"
-						parent_bone = ""
-						relative_origin = [ -0.562812, 16.578911, 0.660022 ]
-						relative_angles = [ 0.0, 0.0, 0.0 ]
-						weight = 1.0
-						ignore_rotation = false
-					},
-				]
-			},
-			{
-				_class = "IKData"
-				children = 
-				[
-					{
-						_class = "IKRigSimple"
-						children = 
-						[
-							{
-								_class = "IKChainOld"
-								name = "hinge"
-								children = 
-								[
-									{
-										_class = "IKJointConstraint_Hinge"
-										constrained_joint = ""
-										hinge_axis = "Up"
-										min_radians = -1.570796
-										max_radians = 1.570796
-									},
-									{
-										_class = "IKJointConstraint_Hinge"
-										constrained_joint = ""
-										hinge_axis = "Up"
-										min_radians = -1.570796
-										max_radians = 1.570796
-									},
-								]
-								end_effector_bone = "hinge_01"
-								root_bone = ""
-								end_effector_target_bone = "hinge_02"
-								reverse_footlock_bone = ""
-								max_lock_distance_to_target = 6.0
-								footstep_footstep_sound_type = "Left"
-								footstep_sound = ""
-								footstep_attachment = ""
-								solver = "IKSOLVER_TwoBone"
-								hyperextension_release_dot_threshold = 0.937995
-								use_target_instead_of_lock_threshold = 0.01
-								break_restoration_time = 0.15
-								soften_time = 0.5
-								soften_percentage = 0.1
-							},
-						]
-						initial_master_blend_amount = 1.0
-						abs_origin_drop_height = 24.0
-						abs_origin_drop_height_spring_strength = 500.0
-						default_tilt_spring_strength = 5.0
-						tilt_bone = "handle_01"
-						animgraph_master_blend_parameter_name = ""
-						system = "IKSYSTEMTYPE_SkeletonInstance"
-					},
-				]
-			},
-			{
-				_class = "Skeleton"
-				children = 
-				[
-					{
-						_class = "Bone"
-						name = "hinge_01"
-						origin = [ -0.169222, 21.00424, 20.938519 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-					},
-					{
-						_class = "Bone"
-						name = "hinge_02"
-						origin = [ -0.209835, 20.084927, -12.265541 ]
-						angles = [ 0.0, 0.0, 0.0 ]
 					},
 				]
 			},
 		]
-		model_archetype = "physics_prop_model"
-		primary_associated_entity = "prop_physics"
+		model_archetype = ""
+		primary_associated_entity = ""
 		anim_graph_name = ""
 	}
 }

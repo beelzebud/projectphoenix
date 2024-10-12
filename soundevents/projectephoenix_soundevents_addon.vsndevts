@@ -250,7 +250,7 @@
 	}
 	polybius_trap = 
 	{
-		type = "hlvr_music_2d"
+		type = "hlvr_default_3d"
 		volume = 1
 		vsnd_files = "sounds/dream.vsnd"
 	}
