@@ -265,19 +265,23 @@
 							},
 							{
 								from = "materials/mk_cab/mk_cab_b.vmat"
-								to = "materials/rampage_cab/rampage_cab.vmat"
+								to = "materials/mk_cab/rampage_cab_b.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cab_a.vmat"
-								to = "materials/rampage_cab/rampage_cab.vmat"
+								to = "materials/mk_cab/rampage_cab_a.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cab.vmat"
-								to = "materials/rampage_cab/rampage_cab.vmat"
+								to = "materials/mk_cab/rampage_cab.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cp_bottom.vmat"
 								to = "materials/rampage_cab/rampage_cp_lower.vmat"
+							},
+							{
+								from = "materials/mk_cab/generic_bezel_plastic.vmat"
+								to = "materials/mk_cab/generic_bezel_plastic.vmat"
 							},
 						]
 					},
@@ -296,7 +300,7 @@
 							},
 							{
 								from = "materials/mk_cab/mk_cab_b.vmat"
-								to = "materials/tmnt/tmnt_sideart_b.vmat"
+								to = "materials/mk_cab/tmnt_cab_b.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cab_a.vmat"
@@ -304,7 +308,7 @@
 							},
 							{
 								from = "materials/mk_cab/mk_cab.vmat"
-								to = "materials/tmnt/tmnt_sideart.vmat"
+								to = "materials/mk_cab/tmnt_cab.vmat"
 							},
 							{
 								from = "materials/mk_cab/generic_bezel_plastic.vmat"
@@ -339,19 +343,19 @@
 							},
 							{
 								from = "materials/mk_cab/mk_cp_bottom.vmat"
-								to = "materials/raiden2/raiden2_inst_strip.vmat"
+								to = "materials/raiden2/raiden_ii_logo.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cab_b.vmat"
-								to = "materials/raiden2/raiden2_cab.vmat"
+								to = "materials/mk_cab/raidenii_cab_b.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cab_a.vmat"
-								to = "materials/raiden2/raiden2_cab.vmat"
+								to = "materials/mk_cab/raidenii_cab_a.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cab.vmat"
-								to = "materials/dev/primary_black.vmat"
+								to = "materials/mk_cab/raiden2_cab.vmat"
 							},
 							{
 								from = "materials/dev/primary_red.vmat"
@@ -432,15 +436,15 @@
 							},
 							{
 								from = "materials/mk_cab/mk_cab_b.vmat"
-								to = "materials/simpsons_cab_b.vmat"
+								to = "materials/mk_cab/simpsons_cab_b.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cab_a.vmat"
-								to = "materials/simpsons_cab_a.vmat"
+								to = "materials/mk_cab/simpsons_cab_a.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cab.vmat"
-								to = "materials/simpsons_cab.vmat"
+								to = "materials/mk_cab/simpsons_cab.vmat"
 							},
 							{
 								from = "materials/mk_cab/mk_cp_bottom.vmat"

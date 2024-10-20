@@ -1,0 +1,176 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			
+			{
+				_class = "BoneMarkupList"
+				children = 
+				[
+				]
+				bone_cull_type = "None"
+			},
+			
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					
+					{
+						_class = "RenderMeshFile"
+						name = "door_1a_40_92"
+						filename = "models/architecture/doors_1/door_1a_40_92_door_1a_40_92.dmx"
+					},
+					
+					{
+						_class = "RenderMeshFile"
+						name = "lod"
+						filename = "models/architecture/doors_1/door_1a_40_92_lod1.dmx"
+					},
+				]
+			},
+			
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					
+					{
+						_class = "Attachment"
+						name = "handle"
+						ignore_rotation = false
+						parent_bone = ""
+						relative_origin = 
+						[
+							0.000000,
+							35.377040,
+							44.480270,
+						]
+						relative_angles = 
+						[
+							0.000000,
+							89.999990,
+							89.999990,
+						]
+						weight = 1.000000
+					},
+				]
+			},
+			
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/architecture/doors_1/door_1a_40_92_hull.dmx"
+						surface_prop = "prop.metal"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/architecture/doors_1/door_1a_40_92_hull1.dmx"
+						surface_prop = "prop.metal"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/architecture/doors_1/door_1a_40_92_hull2.dmx"
+						surface_prop = "prop.metal"
+						collision_tags = ""
+						name = ""
+					},
+					
+					{
+						_class = "PhysicsHullFile"
+						filename = "models/architecture/doors_1/door_1a_40_92_hull3.dmx"
+						surface_prop = "prop.wood_furniture"
+						collision_tags = ""
+						name = ""
+					},
+				]
+			},
+			
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = ""
+							allowstatic = true
+							damage_table = ""
+							dmg.club = -1.000000
+							dmg.explosive = -1.000000
+							dmg.fire = -1.000000
+							health = -1.000000
+							spawn_motion_disabled = false
+							bakelighting = true
+							dmg.bullets = -1.000000
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "door_sounds"
+						game_keys = 
+						{
+							opened = "DoorMetal.FullyOpened"
+							closed = "DoorMetal.FullyClosed"
+							move = "DoorMetal.PhysMovementLp"
+							jiggle = "DoorMetal.DoorJiggle"
+							locked = "DoorMetal.HandleJiggle"
+							locked_anim = "DoorMetal.HandleAutoJiggle"
+							unlatch = "DoorHandles.Unlocked1"
+							latch = "DoorMetal.HandleLatch"
+							unlock = ""
+							lock = ""
+						}
+					},
+					
+					{
+						_class = "GenericGameData"
+						name = ""
+						game_class = "ao_proxy_box"
+						game_keys = 
+						{
+							bonename = ""
+							dimensions = 
+							[
+								2.373440,
+								39.789700,
+								91.877500,
+							]
+							offset_origin = 
+							[
+								0.022791,
+								17.931300,
+								45.949400,
+							]
+							offset_angles = 
+							[
+								0.000000,
+								0.000000,
+								0.000000,
+							]
+						}
+					},
+				]
+			},
+		]
+	}
+}

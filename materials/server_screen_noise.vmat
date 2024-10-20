@@ -13,13 +13,13 @@ Layer0
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.333"
-	TextureAmbientOcclusion "[0.211765 0.196078 0.196078 0.000000]"
+	g_flAmbientOcclusionDirectSpecular "0.000"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/server_screen_test_card_color.png"
+	TextureColor "materials/server_screen_noise_color.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -28,22 +28,22 @@ Layer0
 	g_bFogEnabled "1"
 
 	//---- Lighting ----
-	g_flDirectionalLightmapMinZ "0.010"
+	g_flDirectionalLightmapMinZ "0.050"
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	g_flMetalness "0.327"
+	g_flMetalness "0.000"
 
 	//---- Normal ----
-	TextureNormal "[0.501961 0.501961 1.000000 0.000000]"
+	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
 	TextureRoughness "materials/server_screen_noise_gloss.png"
 
 	//---- Self Illum ----
-	g_flSelfIllumAlbedoFactor "0.984"
-	g_flSelfIllumBrightness "-5.172"
-	g_flSelfIllumScale "0.770"
+	g_flSelfIllumAlbedoFactor "1.000"
+	g_flSelfIllumBrightness "3.565"
+	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
 	TextureSelfIllumMask "materials/server_screen_noise_selfillum.png"

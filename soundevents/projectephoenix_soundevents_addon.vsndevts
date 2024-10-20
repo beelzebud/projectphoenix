@@ -248,7 +248,7 @@
 		volume_falloff_max = 128
 		vsnd_files = "sounds/tmnt.vsnd"
 	}
-	polybius_trap = 
+	dream = 
 	{
 		type = "hlvr_default_3d"
 		volume = 1

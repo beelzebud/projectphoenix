@@ -63,6 +63,7 @@
 			m_ColorMax = [ 34, 139, 34, 255 ]
 			m_TintMax = [ 46, 139, 87, 255 ]
 			m_TintMin = [ 0, 100, 0, 255 ]
+			m_flTintPerc = 100.0
 		},
 	]
 	m_Operators = 
@@ -93,7 +94,7 @@
 	[
 		{
 			_class = "C_OP_RenderSprites"
-			m_hTexture = resource:"materials/particle/ring_wave_subtle.vtex"
+			m_hTexture = resource:"materials/particle/smoke/render/smokeloop_g_1.vtex"
 		},
 	]
 	m_controlPointConfigurations = 
