@@ -72,6 +72,28 @@
 						use_global_default = false
 						global_default_material = ""
 					},
+					{
+						_class = "MaterialGroup"
+						name = "left_to_right"
+						remaps = 
+						[
+							{
+								from = "materials/oscilliscope/oscill_curve.vmat"
+								to = "materials/polybius_tunnel/wavelength_01_left_to_right_scroll.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "off"
+						remaps = 
+						[
+							{
+								from = "materials/oscilliscope/oscill_curve.vmat"
+								to = "materials/console_background_vr.vmat"
+							},
+						]
+					},
 				]
 			},
 			{

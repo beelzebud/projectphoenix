@@ -93,20 +93,35 @@
 						model = "models/mk_debris_04.vmdl"
 					},
 					{
-						_class = "BreakPieceExternal"
+						_class = "BreakPieceEmbedded"
+						children = 
+						[
+							{
+								_class = "RenderMeshFile"
+								name = "mk_debris_05"
+								filename = "models/dmx/mesh/mk_debris_05.dmx"
+								import_scale = 1.0
+								import_filter = 
+								{
+									exclude_by_default = false
+									exception_list = [  ]
+								}
+							},
+						]
 						placement_mode = "default"
 						placement_bone = ""
 						placement_attach = ""
-						is_ragdoll = true
-						collision_group = "debris"
+						is_ragdoll = false
+						collision_group = "default"
 						offset = [ 0.0, 0.0, 0.0 ]
-						fadetime = 0.0
+						fadetime = 20.0
 						fade_min_dist = 0.0
 						fade_max_dist = 0.0
 						name_mode = "none"
 						random_spawn_chance = 1.0
 						is_essential_piece = false
-						model = "models/mk_debris_05.vmdl"
+						manual_mode = false
+						surface_prop_override = ""
 					},
 				]
 			},
@@ -114,6 +129,23 @@
 				_class = "GameDataList"
 				children = 
 				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Wooden.Large"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = 26.0
+							"dmg.club" = 3.0
+							"dmg.explosive" = 60.0
+							"dmg.fire" = 5.0
+							health = 50.0
+							spawn_motion_disabled = false
+						}
+					},
 					{
 						_class = "BreakCommand"
 						game_class = "break_flip_pieces"
@@ -151,23 +183,6 @@
 							limit_to_piece = ""
 							burst_scale = 95.6
 							burst_randomize = 191.2
-						}
-					},
-					{
-						_class = "GenericGameData"
-						game_class = "prop_data"
-						game_keys = 
-						{
-							base = "Wooden.Large"
-							allowstatic = true
-							bakelighting = true
-							damage_table = ""
-							"dmg.bullets" = 26.0
-							"dmg.club" = 3.0
-							"dmg.explosive" = 60.0
-							"dmg.fire" = 5.0
-							health = 1000.0
-							spawn_motion_disabled = false
 						}
 					},
 					{
@@ -221,7 +236,7 @@
 						_class = "PhysicsHullFile"
 						name = "mk"
 						parent_bone = ""
-						surface_prop = "prop.wood_crate_large"
+						surface_prop = "prop.wood_furniture"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]

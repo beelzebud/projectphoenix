@@ -1,0 +1,419 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	"cab_altbeast" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/altbeast.vsnd",
+		]
+	}
+	"cab_darius2" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/darius2.vsnd",
+		]
+	}
+	"cab_ddragon" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/ddragon.vsnd",
+		]
+	}
+	"cab_defender" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[	
+			"sounds/defender.vsnd",
+		]
+	}
+	"cab_dkong" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/dkong.vsnd",
+		]
+	}
+	"cab_dlair" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/dlair.vsnd",
+		]
+	}
+	"cab_frogger" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/frogger.vsnd",
+		]
+	}
+	"cab_galaga88" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/galaga88.vsnd",
+		]
+	}
+	"cab_garou" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/garou.vsnd",
+		]
+	}
+	"cab_gauntlet" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/gauntlet.vsnd",
+		]
+	}
+	"cab_ghoulsu" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/ghoulsu.vsnd",
+		]
+	}
+	"cab_goldnaxe" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/goldnaxe.vsnd",
+		]
+	}
+	"cab_kof2000" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/kof2000.vsnd",
+		]
+	}
+	"cab_lastbld2" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/lastbld2.vsnd",
+		]
+	}
+	"cab_mk" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/mk.vsnd",
+		]
+	}
+	"cab_mpatrol" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/mpatrol.vsnd",
+		]
+	}
+	"cab_mslug5" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/mslug5.vsnd",
+		]
+	}
+	"cab_narc" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/narc.vsnd",
+		]
+	}
+	"cab_pacman" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/pacman.vsnd",
+		]
+	}
+	"cab_raiden2" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/raiden2.vsnd",
+		]
+	}
+	"cab_rampage" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/rampage.vsnd",
+		]
+	}
+	"cab_rastan" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/rastan.vsnd",
+		]
+	}
+	"cab_robocop" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/robocop.vsnd",
+		]
+	}
+	"cab_rsgun" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/rsgun.vsnd",
+		]
+	}
+	"cab_rtype" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/rtype.vsnd",
+		]
+	}
+	"cab_rygar" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/rygar.vsnd",
+		]
+	}
+	"cab_samsho5" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/samsho5.vsnd",
+		]
+	}
+	"cab_sf2" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/sf2.vsnd",
+		]
+	}
+	"cab_smashtv" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/smashtv.vsnd",
+		]
+	}
+	"cab_swtrilgy" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/swtrilgy.vsnd",
+		]
+	}
+	"cab_tmnt" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/tmnt.vsnd",
+		]
+	}
+	"cab_hotd2" =
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/hotd2.vsnd",
+		]
+	}
+	"cab_ggx" =
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/ggx.vsnd",
+		]
+	}
+	"cab_cadash" =
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/cadash.vsnd",
+		]
+	}
+	"cab_simpsons" =
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/simpsons.vsnd",
+		]
+	}
+	"cab_invaders" =
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/invaders.vsnd",
+		]
+	}
+	"cab_capcomvssnk" =
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		volume_falloff_min = 128
+		volume_falloff_max = 256
+		vsnd_files = 
+		[
+			"sounds/capcomvssnk.vsnd",
+		]
+	}
+	"dream" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1
+		vsnd_files = 
+		[
+			"sounds/dream.vsnd",
+		]
+	}
+}

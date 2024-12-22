@@ -1,0 +1,24 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "complex.vfx"
+
+	//---- Translucency ----
+	F_TRANSLUCENT 1
+
+	//---- PBR ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	TextureColor "materials/grill.png"
+	TextureMetalness "materials/default/default_metal.tga"
+	TextureNormal "materials/default/default_normal.tga"
+	TextureRoughness "materials/default/default_rough.tga"
+
+	//---- PBRX ----
+	g_flIOR "1.500"
+
+	//---- Translucency ----
+	g_flOpacityScale "0.995"
+	TextureTranslucency "materials/grill.png"
+}

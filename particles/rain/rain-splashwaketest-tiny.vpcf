@@ -44,8 +44,8 @@
 	[
 		{
 			_class = "C_INIT_CreateWithinBox"
-			m_vecMin = [ 32.0, 32.0, 96.0 ]
-			m_vecMax = [ -32.0, -32.0, 96.0 ]
+			m_vecMin = [ 256.0, 256.0, 512.0 ]
+			m_vecMax = [ -256.0, -256.0, 512.0 ]
 		},
 		{
 			_class = "C_INIT_VelocityRandom"
@@ -394,7 +394,7 @@
 			{
 				m_nType = "PF_TYPE_LITERAL"
 				m_nMapType = "PF_MAP_TYPE_DIRECT"
-				m_flLiteralValue = 0.02
+				m_flLiteralValue = 0.005
 				m_nControlPoint = 0
 				m_nScalarAttribute = 3
 				m_nVectorAttribute = 6

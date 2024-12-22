@@ -1,0 +1,177 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models\\dmx\\mesh\\speaker_cab.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Wooden.Medium"
+							allowstatic = true
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "grill_off"
+						remaps = 
+						[
+							{
+								from = "materials/models/props_subway/speakergrate_control_room01.vmat"
+								to = "materials/models/props_vehicles/van_a01/invisible_attachpoints.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "type2"
+						remaps = 
+						[
+							{
+								from = "materials/speaker_cab.vmat"
+								to = "materials/speaker_cabinet_face.vmat"
+							},
+							{
+								from = "materials/models/props_subway/speakergrate_control_room01.vmat"
+								to = "materials/models/props_vehicles/van_a01/invisible_attachpoints.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "type1_tolex"
+						remaps = 
+						[
+							{
+								from = "materials/deadlock/wooden_wall_panel_tbimabxr.vmat"
+								to = "materials/tolex.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "type1_tolex2"
+						remaps = 
+						[
+							{
+								from = "materials/deadlock/wooden_wall_panel_tbimabxr.vmat"
+								to = "materials/speakers/tolex.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "type2_tolex"
+						remaps = 
+						[
+							{
+								from = "materials/deadlock/wooden_wall_panel_tbimabxr.vmat"
+								to = "materials/tolex.vmat"
+							},
+							{
+								from = "materials/models/props_subway/speakergrate_control_room01.vmat"
+								to = "materials/models/props_vehicles/van_a01/invisible_attachpoints.vmat"
+							},
+							{
+								from = "materials/speaker_cab.vmat"
+								to = "materials/speaker_cabinet_face.vmat"
+							},
+						]
+					},
+					{
+						_class = "MaterialGroup"
+						name = "type2_tolex2"
+						remaps = 
+						[
+							{
+								from = "materials/deadlock/wooden_wall_panel_tbimabxr.vmat"
+								to = "materials/speakers/tolex.vmat"
+							},
+							{
+								from = "materials/models/props_subway/speakergrate_control_room01.vmat"
+								to = "materials/models/props_vehicles/van_a01/invisible_attachpoints.vmat"
+							},
+							{
+								from = "materials/speaker_cab.vmat"
+								to = "materials/speaker_cabinet_face.vmat"
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "speaker_cab"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/dmx/mesh/speaker_cab.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = "physics_prop_model"
+		primary_associated_entity = "prop_physics"
+		anim_graph_name = ""
+	}
+}
