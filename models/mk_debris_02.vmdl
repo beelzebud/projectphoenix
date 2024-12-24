@@ -64,6 +64,17 @@
 							},
 						]
 					},
+					{
+						_class = "MaterialGroup"
+						name = "simpsons"
+						remaps = 
+						[
+							{
+								from = "materials/mk_cab/mk_cab_b.vmat"
+								to = "materials/simpsons_cab_b.vmat"
+							},
+						]
+					},
 				]
 			},
 			{
